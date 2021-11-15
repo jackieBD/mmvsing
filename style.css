@@ -5,7 +5,7 @@ body{
 }
 #canvas{
   z-index: 3;
-  background-image: url('images/background.png');
+  background-image: url('background.png');
   width: 800px;
   height: 600px;
   position: relative;
@@ -17,7 +17,7 @@ body{
 
 #hero {
   z-index: 5;
-  background-image: url('images/myheroo.png');
+  background-image: url('myheroo.png');
   width: 70px;
   height: 64px;
   left: 380px;
@@ -27,7 +27,7 @@ body{
 }
 
 #villain{
-  background-image: url('images/myvillain.png');
+  background-image: url('myvillain.png');
   width: 68px;
   height: 68px;
   left: 380px;
@@ -37,7 +37,7 @@ body{
 
 #mud{
   z-index: 4;
-  background-image: url('images/mud.png');
+  background-image: url('mud.png');
   width: 64px;
   height: 64px;
   position: absolute;
