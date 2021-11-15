@@ -1,0 +1,140 @@
+
+body{
+  background-image: linear-gradient(to right, #6075F2, #FF985C);
+  margin: 0;
+}
+#canvas{
+  z-index: 3;
+  background-image: url('images/background.png');
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: 5px solid #A79DD4;
+}
+
+#hero {
+  z-index: 5;
+  background-image: url('images/myheroo.png');
+  width: 70px;
+  height: 64px;
+  left: 380px;
+  top: 420px;
+  position: absolute;
+
+}
+
+#villain{
+  background-image: url('images/myvillain.png');
+  width: 68px;
+  height: 68px;
+  left: 380px;
+  top: 100px;
+  position: absolute;
+}
+
+#mud{
+  z-index: 4;
+  background-image: url('images/mud.png');
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 900px;
+  top: 900px;
+  display: none;
+
+}
+
+
+
+#mm-scoreboard{
+  color: #D16126;
+  margin: 10px;
+}
+
+h1{
+  font-size: 28px;
+  font-family: monospace;
+
+}
+
+#ing-scoreboard{
+  color: #4B519D;
+  text-align: right;
+  margin-top: 520px;
+  margin-right: 10px;
+
+}
+
+
+
+/*MODAL!! */
+
+
+#modal{
+  z-index: 7;
+  height: 450px;
+  width: 375px;
+  background-color: #4B519D;
+  margin: auto;
+  margin-top: 20px;
+  position: fixed;
+  top: 11%;
+  left: 37%;
+  text-align: center;
+  border: 4px solid #D16126;
+  border-radius: 8px;
+
+}
+
+p{
+color: white;
+font-family: monospace;
+font-weight: bold;
+font-size: 17px;
+margin: 12px;
+text-indent: 10px;
+line-height: 22px;
+text-align: center;
+}
+
+
+.mmp{
+  color: #FFD3BB;
+  text-align: left;
+}
+
+.ingp{
+  color:#CEC9FB;
+  text-align: left;
+}
+
+
+button{
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  color: #4B519D;
+  background-color: #FF985C;
+  border: solid 3px #CEC9FB;
+  padding: 5px 12px;
+  border-radius: 7px;
+}
+
+button:hover, button:focus {
+  color: #FFD3BB;
+  background-color: #4B519D;
+  border-color: white;
+}
+
+
+#chatbox {
+
+}
+
+
+.messages {
+  display: none;
+}
